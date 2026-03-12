@@ -1,0 +1,22 @@
+{
+  "name": "voice-ai-agent",
+  "version": "1.0.0",
+  "description": "Voice AI agent reachable via phone - knows everything about you",
+  "main": "src/booking-server.js",
+  "scripts": {
+    "setup": "node src/setup-assistant.js",
+    "server": "node src/booking-server.js",
+    "start": "node src/booking-server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-fetch": "^2.7.0",
+    "nodemailer": "^8.0.2",
+    "pdf-parse": "^2.4.5",
+    "pdf2json": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
