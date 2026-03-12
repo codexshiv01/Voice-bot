@@ -107,7 +107,7 @@ async function createAssistant() {
               },
               preferred_date: {
                 type: "string",
-                description: "Their preferred date (e.g., '2025-03-15' or 'next Monday')",
+                description: "Their preferred date. CRITICAL: Pass exactly what the caller said (e.g., 'tomorrow', 'next Monday'). DO NOT try to guess the year or format it as YYYY-MM-DD.",
               },
               preferred_time: {
                 type: "string",
